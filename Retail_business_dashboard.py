@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("Retail Business Dashboard")
-st.header("**Bold Text** Manager Input Section")
+st.header("<b>Manager Input Section</b>")
 st.write("Please ente the monthly sales target and selecct the region.")
 st.number_input("Enter Monthly Sales Target (in USD):", 
                 min_value = 0,
